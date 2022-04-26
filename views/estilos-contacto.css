@@ -1,0 +1,45 @@
+* {
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #323E40;
+}
+.bg-mio{
+    background-color: #ffcc00;
+}
+@font-face {
+    font-family:"montserrat" ;
+    src: url(../Montserrat_Alternates/MontserratAlternates-Italic.ttf);
+}
+p, button{
+    font-family:"montserrat" ;
+}
+@font-face {
+    font-family:"shadows";
+    src: url(../ShadowsIntoLight/ShadowsIntoLight-Regular.ttf);
+}
+h1{
+    font-family: "shadows";
+    text-align: center;
+}
+
+/* Botones */
+.css-button-fully-rounded--sky {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 20px;
+    border: 2px solid #4433ff;
+    background: #4433ff;
+  }
+  .css-button-fully-rounded--sky:hover {
+    background: #fff;
+    color: #4433ff
+  }

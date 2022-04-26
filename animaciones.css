@@ -1,0 +1,15 @@
+.transicion{
+    transition: width 2s;
+}
+
+.transicion:hover{
+    width: 400px;
+}
+
+.agrandado{
+    transition: width 2s;
+}
+
+.agrandado:hover{
+    width: 500px;
+}

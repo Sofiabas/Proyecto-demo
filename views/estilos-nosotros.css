@@ -1,0 +1,24 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #323E40;
+}
+.bg-mio{
+    background-color: #ffcc00;
+}
+@font-face {
+    font-family:"montserrat" ;
+    src: url(../Montserrat_Alternates/MontserratAlternates-Italic.ttf);
+}
+p{
+    font-family:"montserrat" ;
+}
+@font-face {
+    font-family:"shadows";
+    src: url(../ShadowsIntoLight/ShadowsIntoLight-Regular.ttf);
+}
+h1{
+    font-family: "shadows";
+    text-align: center;
+}
