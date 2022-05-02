@@ -4,9 +4,13 @@
 
 @font-face {
     font-family:"montserrat" ;
-    src: url(./Montserrat_Alternates/MontserratAlternates-Italic.ttf);
+    src: url(/Montserrat_Alternates/MontserratAlternates-Italic.ttf);    
 }
 p{
-    font-family:"montserrat" ;
+    font-family:"montserrat";
     line-height: 2;
+}
+
+h1{
+    text-align: center;
 }

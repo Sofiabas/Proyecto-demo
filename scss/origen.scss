@@ -6,3 +6,45 @@ $amarillo: #ffcc00;
     background-color: $amarillo;
 }
  
+/*extend*/
+.imagen{
+    width:"500"; 
+    height:"500";
+    border:2px solid black;
+}
+
+.imagen-m{
+    @extend .imagen;
+    border:2px solid rgb(250, 206, 11);
+}
+
+/*mixin*/
+@mixin borde($tipo, $tamanio) {
+    border-radius:$tipo ;
+    border-style:$tamanio ;
+}
+
+.contorno{
+    @include borde(25px, inset) ;
+}
+
+.contorno-1{
+    @include borde(20px, inset) ;
+}
+
+.contorno-2{
+    @include borde(30px, inset) ;
+}
+/*mapa*/
+
+$mapa:(
+    twitter: #55acee,
+    facebook: #3a5795,
+    instagram: rgb(143,52,143)
+);
+
+@each $nombres, $colorcito in $mapa{
+    .red-#{$nombres} {
+background-color: $colorcito;
+    }
+}

@@ -11,15 +11,59 @@
 
 @font-face {
   font-family: "montserrat";
-  src: url(./Montserrat_Alternates/MontserratAlternates-Italic.ttf);
+  src: url(/Montserrat_Alternates/MontserratAlternates-Italic.ttf);
 }
 p {
   font-family: "montserrat";
   line-height: 2;
 }
 
+h1 {
+  text-align: center;
+}
+
 .bg-mio {
   background-color: #ffcc00;
+}
+
+/*extend*/
+.imagen, .imagen-m {
+  width: "500";
+  height: "500";
+  border: 2px solid black;
+}
+
+.imagen-m {
+  border: 2px solid rgb(250, 206, 11);
+}
+
+/*mixin*/
+.contorno {
+  border-radius: 25px;
+  border-style: inset;
+}
+
+.contorno-1 {
+  border-radius: 20px;
+  border-style: inset;
+}
+
+.contorno-2 {
+  border-radius: 30px;
+  border-style: inset;
+}
+
+/*mapa*/
+.red-twitter {
+  background-color: #55acee;
+}
+
+.red-facebook {
+  background-color: #3a5795;
+}
+
+.red-instagram {
+  background-color: rgb(143, 52, 143);
 }
 
 /*# sourceMappingURL=destino.css.map */
