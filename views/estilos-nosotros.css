@@ -10,6 +10,7 @@
 @font-face {
     font-family:"montserrat" ;
     src: url(../Montserrat_Alternates/MontserratAlternates-Italic.ttf);
+    font-display: swap  
 }
 p{
     font-family:"montserrat" ;
@@ -17,6 +18,7 @@ p{
 @font-face {
     font-family:"shadows";
     src: url(../ShadowsIntoLight/ShadowsIntoLight-Regular.ttf);
+    font-display: swap  
 }
 h1{
     font-family: "shadows";
