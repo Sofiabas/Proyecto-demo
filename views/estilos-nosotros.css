@@ -24,3 +24,8 @@ h1{
     font-family: "shadows";
     text-align: center;
 }
+.imagen{
+    border:2px solid black;
+    border-radius: 20px;
+    border-style: inset;
+}

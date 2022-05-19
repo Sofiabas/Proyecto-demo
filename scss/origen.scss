@@ -35,16 +35,3 @@ $amarillo: #ffcc00;
 .contorno-2{
     @include borde(30px, inset) ;
 }
-/*mapa*/
-
-$mapa:(
-    twitter: #55acee,
-    facebook: #3a5795,
-    instagram: rgb(143,52,143)
-);
-
-@each $nombres, $colorcito in $mapa{
-    .red-#{$nombres} {
-background-color: $colorcito;
-    }
-}
